@@ -1,0 +1,14 @@
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\bin\Debug\aplisantewelcome.exe.config
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\bin\Debug\aplisantewelcome.exe
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\bin\Debug\aplisantewelcome.pdb
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\obj\Debug\aplisantewelcome.csprojResolveAssemblyReference.cache
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\obj\Debug\aplisantewelcome.Form1.resources
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\obj\Debug\aplisantewelcome.FORMULAIRE_MEDECIN.resources
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\obj\Debug\aplisantewelcome.menu.resources
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\obj\Debug\aplisantewelcome.Properties.Resources.resources
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\obj\Debug\aplisantewelcome.csproj.GenerateResource.Cache
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\obj\Debug\aplisantewelcome.exe
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\obj\Debug\aplisantewelcome.pdb
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\obj\Debug\aplisantewelcome.FORMULAIRE_MALADE.resources
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\obj\Debug\aplisantewelcome.FORMULAIRE_SERVICE_RENSEIGNEMENT.resources
+c:\users\samy\documents\visual studio 2015\Projects\aplisantewelcome\aplisantewelcome\obj\Debug\aplisantewelcome.FORMULAIRE_SERVICE_HOSPITALISATION.resources

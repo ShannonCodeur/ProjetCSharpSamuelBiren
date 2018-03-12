@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F49CC653-7B9F-49C5-B44D-6302014A5BD6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>aplisantewelcome</RootNamespace>
+    <AssemblyName>aplisantewelcome</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMULAIRE MALADE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMULAIRE MALADE.Designer.cs">
+      <DependentUpon>FORMULAIRE MALADE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMULAIRE MEDECIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMULAIRE MEDECIN.Designer.cs">
+      <DependentUpon>FORMULAIRE MEDECIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMULAIRE SERVICE DE RENSEIGNEMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMULAIRE SERVICE DE RENSEIGNEMENT.Designer.cs">
+      <DependentUpon>FORMULAIRE SERVICE DE RENSEIGNEMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMULAIRE SERVICE HOSPITALISATION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMULAIRE SERVICE HOSPITALISATION.Designer.cs">
+      <DependentUpon>FORMULAIRE SERVICE HOSPITALISATION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMULAIRE SERVICE RENSEIGNEMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMULAIRE SERVICE RENSEIGNEMENT.Designer.cs">
+      <DependentUpon>FORMULAIRE SERVICE RENSEIGNEMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMULAIRE MALADE.resx">
+      <DependentUpon>FORMULAIRE MALADE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMULAIRE MEDECIN.resx">
+      <DependentUpon>FORMULAIRE MEDECIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMULAIRE SERVICE HOSPITALISATION.resx">
+      <DependentUpon>FORMULAIRE SERVICE HOSPITALISATION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMULAIRE SERVICE RENSEIGNEMENT.resx">
+      <DependentUpon>FORMULAIRE SERVICE RENSEIGNEMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
